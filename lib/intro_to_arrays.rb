@@ -3,8 +3,7 @@ def instantiate_new_array
 end
 
 def array_with_two_elements(element1, element2)
-   myarray = []
-   myarray.push(element1, element2)
+   myarray = [element1, element2}
    myarray
 end
 
