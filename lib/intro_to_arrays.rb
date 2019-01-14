@@ -3,9 +3,10 @@ def instantiate_new_array
 end
 
 def array_with_two_elements(element1, element2)
-   myarray = array.new
-   myarray = [element1, element2]
-   puts myarray.inspect
+   myarray = []
+   myarray.push(element1)
+   myarray.push(element2)
+   myarray
 end
 
 def first_element (array)
