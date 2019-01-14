@@ -4,8 +4,7 @@ end
 
 def array_with_two_elements(element1, element2)
    myarray = []
-   myarray.push(element1)
-   myarray.push(element2)
+   myarray.push(element1, element2)
    myarray
 end
 
