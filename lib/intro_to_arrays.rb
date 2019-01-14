@@ -2,11 +2,10 @@ def instantiate_new_array
   []
 end
 
-def array_with_two_elements(element1, element2)
-   myarray = []
-   myarray.push(element1, element2)
-   myarray
+def array_with_two_elements
+	my_array = [1,2]
 end
+
 
 def first_element (array)
   array[0]
